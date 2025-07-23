@@ -1,0 +1,41 @@
+org.arthur.pigeon.app-jetified-viewpager2-1.0.0-0 /home/arthur/.gradle/caches/transforms-3/09700578131d9c6de1818cf6bedaca4c/transformed/jetified-viewpager2-1.0.0/res
+org.arthur.pigeon.app-jetified-startup-runtime-1.1.1-1 /home/arthur/.gradle/caches/transforms-3/1934ca0afa549eb585324466571e21f7/transformed/jetified-startup-runtime-1.1.1/res
+org.arthur.pigeon.app-jetified-lifecycle-service-2.6.1-2 /home/arthur/.gradle/caches/transforms-3/1ce0cbde36033eabb936bc50c6ea4291/transformed/jetified-lifecycle-service-2.6.1/res
+org.arthur.pigeon.app-recyclerview-1.1.0-3 /home/arthur/.gradle/caches/transforms-3/1fde2bfd840b984a9997a035c5604801/transformed/recyclerview-1.1.0/res
+org.arthur.pigeon.app-jetified-core-ktx-1.12.0-4 /home/arthur/.gradle/caches/transforms-3/27b846285f11f1534f0ceeb273c25cac/transformed/jetified-core-ktx-1.12.0/res
+org.arthur.pigeon.app-work-runtime-ktx-2.9.0-5 /home/arthur/.gradle/caches/transforms-3/2980bfed79bb8ee21785a4a4618561eb/transformed/work-runtime-ktx-2.9.0/res
+org.arthur.pigeon.app-core-1.12.0-6 /home/arthur/.gradle/caches/transforms-3/2f00d4405d323d3c01e9a81518181af4/transformed/core-1.12.0/res
+org.arthur.pigeon.app-core-runtime-2.2.0-7 /home/arthur/.gradle/caches/transforms-3/3376529aa6e4147f4e6b92f06ab614c9/transformed/core-runtime-2.2.0/res
+org.arthur.pigeon.app-constraintlayout-2.0.1-8 /home/arthur/.gradle/caches/transforms-3/35310d547d462344d1c933be42556f11/transformed/constraintlayout-2.0.1/res
+org.arthur.pigeon.app-jetified-annotation-experimental-1.3.0-9 /home/arthur/.gradle/caches/transforms-3/36e810985a4191e28646daf223ec064f/transformed/jetified-annotation-experimental-1.3.0/res
+org.arthur.pigeon.app-transition-1.2.0-10 /home/arthur/.gradle/caches/transforms-3/3fe8b35cb36ef3e83b3f162a2828214a/transformed/transition-1.2.0/res
+org.arthur.pigeon.app-jetified-activity-1.8.0-11 /home/arthur/.gradle/caches/transforms-3/4177d1ee98c0d7dccf785ba8189c545a/transformed/jetified-activity-1.8.0/res
+org.arthur.pigeon.app-sqlite-framework-2.3.0-12 /home/arthur/.gradle/caches/transforms-3/45ca4819986470a5514d3f8deff0c414/transformed/sqlite-framework-2.3.0/res
+org.arthur.pigeon.app-jetified-emoji2-views-helper-1.2.0-13 /home/arthur/.gradle/caches/transforms-3/53e9d55695c7f76238a650ab95d6d06c/transformed/jetified-emoji2-views-helper-1.2.0/res
+org.arthur.pigeon.app-fragment-1.3.6-14 /home/arthur/.gradle/caches/transforms-3/65ec10d555ebbec4cee9d69911cd4d5b/transformed/fragment-1.3.6/res
+org.arthur.pigeon.app-lifecycle-runtime-2.6.1-15 /home/arthur/.gradle/caches/transforms-3/6b120d9404e96c3a1ab68d1e32123628/transformed/lifecycle-runtime-2.6.1/res
+org.arthur.pigeon.app-material-1.11.0-16 /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/res
+org.arthur.pigeon.app-lifecycle-livedata-core-2.6.1-17 /home/arthur/.gradle/caches/transforms-3/7a8840e762bf813d12302163bc2001b2/transformed/lifecycle-livedata-core-2.6.1/res
+org.arthur.pigeon.app-cardview-1.0.0-18 /home/arthur/.gradle/caches/transforms-3/7f40aa917411d4f1bf73a2c7a8ff5b11/transformed/cardview-1.0.0/res
+org.arthur.pigeon.app-jetified-appcompat-resources-1.6.1-19 /home/arthur/.gradle/caches/transforms-3/8787a08a7a01b3b0d379580868d958dc/transformed/jetified-appcompat-resources-1.6.1/res
+org.arthur.pigeon.app-drawerlayout-1.1.1-20 /home/arthur/.gradle/caches/transforms-3/8986addf4e96802644eca9be5fdd45ff/transformed/drawerlayout-1.1.1/res
+org.arthur.pigeon.app-work-runtime-2.9.0-21 /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/res
+org.arthur.pigeon.app-jetified-lifecycle-process-2.6.1-22 /home/arthur/.gradle/caches/transforms-3/a82a25dd26fb2ba274536448306f3079/transformed/jetified-lifecycle-process-2.6.1/res
+org.arthur.pigeon.app-sqlite-2.3.0-23 /home/arthur/.gradle/caches/transforms-3/b270342c381e7ecc654e407cda609209/transformed/sqlite-2.3.0/res
+org.arthur.pigeon.app-coordinatorlayout-1.1.0-24 /home/arthur/.gradle/caches/transforms-3/b834abd5ed20b3d37f3cca1a7600c6fb/transformed/coordinatorlayout-1.1.0/res
+org.arthur.pigeon.app-jetified-room-ktx-2.5.0-25 /home/arthur/.gradle/caches/transforms-3/bd7c7d40120376b06d529ec1ab1974f3/transformed/jetified-room-ktx-2.5.0/res
+org.arthur.pigeon.app-room-runtime-2.5.0-26 /home/arthur/.gradle/caches/transforms-3/bf1562ed23c607e6fda3f7d3ae87c483/transformed/room-runtime-2.5.0/res
+org.arthur.pigeon.app-jetified-profileinstaller-1.3.0-27 /home/arthur/.gradle/caches/transforms-3/c43fc9a6562c98296573b7d0a7cef499/transformed/jetified-profileinstaller-1.3.0/res
+org.arthur.pigeon.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-28 /home/arthur/.gradle/caches/transforms-3/e305226c7086a6e707077704804a0581/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res
+org.arthur.pigeon.app-jetified-savedstate-1.2.1-29 /home/arthur/.gradle/caches/transforms-3/e6a62828ec6b85c5201d3d4c83d91746/transformed/jetified-savedstate-1.2.1/res
+org.arthur.pigeon.app-lifecycle-viewmodel-2.6.1-30 /home/arthur/.gradle/caches/transforms-3/e940ddd17a9e3ae3c530bb5eef88bc04/transformed/lifecycle-viewmodel-2.6.1/res
+org.arthur.pigeon.app-appcompat-1.6.1-31 /home/arthur/.gradle/caches/transforms-3/ebde7b7ffbad59a597289cf76f0f2256/transformed/appcompat-1.6.1/res
+org.arthur.pigeon.app-jetified-emoji2-1.2.0-32 /home/arthur/.gradle/caches/transforms-3/fa981c470c218712fb9acdc1e811c61b/transformed/jetified-emoji2-1.2.0/res
+org.arthur.pigeon.app-lifecycle-livedata-2.6.1-33 /home/arthur/.gradle/caches/transforms-3/fc3a4465dd5dfebe55cde7b33422a031/transformed/lifecycle-livedata-2.6.1/res
+org.arthur.pigeon.app-pngs-34 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/generated/res/pngs/debug
+org.arthur.pigeon.app-resValues-35 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/generated/res/resValues/debug
+org.arthur.pigeon.app-packageDebugResources-36 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.arthur.pigeon.app-packageDebugResources-37 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.arthur.pigeon.app-merged_res-38 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/merged_res/debug
+org.arthur.pigeon.app-debug-39 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/debug/res
+org.arthur.pigeon.app-main-40 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/res
