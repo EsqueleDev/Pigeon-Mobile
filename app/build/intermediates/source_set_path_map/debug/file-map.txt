@@ -32,10 +32,10 @@ org.arthur.pigeon.app-lifecycle-viewmodel-2.6.1-30 /home/arthur/.gradle/caches/t
 org.arthur.pigeon.app-appcompat-1.6.1-31 /home/arthur/.gradle/caches/transforms-3/ebde7b7ffbad59a597289cf76f0f2256/transformed/appcompat-1.6.1/res
 org.arthur.pigeon.app-jetified-emoji2-1.2.0-32 /home/arthur/.gradle/caches/transforms-3/fa981c470c218712fb9acdc1e811c61b/transformed/jetified-emoji2-1.2.0/res
 org.arthur.pigeon.app-lifecycle-livedata-2.6.1-33 /home/arthur/.gradle/caches/transforms-3/fc3a4465dd5dfebe55cde7b33422a031/transformed/lifecycle-livedata-2.6.1/res
-org.arthur.pigeon.app-pngs-34 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/generated/res/pngs/debug
-org.arthur.pigeon.app-resValues-35 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/generated/res/resValues/debug
-org.arthur.pigeon.app-packageDebugResources-36 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-org.arthur.pigeon.app-packageDebugResources-37 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-org.arthur.pigeon.app-merged_res-38 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/build/intermediates/merged_res/debug
-org.arthur.pigeon.app-debug-39 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/debug/res
-org.arthur.pigeon.app-main-40 /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/res
+org.arthur.pigeon.app-pngs-34 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/generated/res/pngs/debug
+org.arthur.pigeon.app-resValues-35 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/generated/res/resValues/debug
+org.arthur.pigeon.app-packageDebugResources-36 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.arthur.pigeon.app-packageDebugResources-37 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.arthur.pigeon.app-merged_res-38 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/merged_res/debug
+org.arthur.pigeon.app-debug-39 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/debug/res
+org.arthur.pigeon.app-main-40 /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/res

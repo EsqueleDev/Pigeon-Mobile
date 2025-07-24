@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:1:1-54:12
 MERGED from [com.google.android.material:material:1.11.0] /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/arthur/.gradle/caches/transforms-3/2980bfed79bb8ee21785a4a4618561eb/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime:2.9.0] /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
@@ -53,40 +53,40 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/a
 MERGED from [androidx.print:print:1.0.0] /home/arthur/.gradle/caches/transforms-3/9f82e0d1cc160294e9a1bc4c3ff64f43/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.3.0] /home/arthur/.gradle/caches/transforms-3/b270342c381e7ecc654e407cda609209/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:3:5-67
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:4:5-77
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:5-77
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:4:22-74
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:22-74
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:5:2-79
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:2-79
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:5:19-77
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:19-77
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:6:2-76
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:2-76
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:6:19-74
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:19-74
 uses-permission#android.permission.CAMERA
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:7:2-61
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:2-61
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:7:19-59
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:19-59
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:8:2-77
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:2-77
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:8:19-75
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:19-75
 application
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
 MERGED from [com.google.android.material:material:1.11.0] /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.work:work-runtime:2.9.0] /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
@@ -108,79 +108,79 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/arthur/.gra
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arthur/.gradle/caches/transforms-3/1934ca0afa549eb585324466571e21f7/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arthur/.gradle/caches/transforms-3/1934ca0afa549eb585324466571e21f7/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:14:9-52
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:14:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/arthur/.gradle/caches/transforms-3/2f00d4405d323d3c01e9a81518181af4/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:11:9-31
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:11:9-31
 	android:roundIcon
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:16:9-65
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:16:9-65
 service#org.arthur.pigeon.MessageCheckService
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:18:9-21:56
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:18:9-21:56
 	android:exported
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:20:13-37
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:20:13-37
 	android:foregroundServiceType
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:21:13-53
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:21:13-53
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:19:13-48
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:19:13-48
 activity#org.arthur.pigeon.MainActivity
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:23:9-30:20
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:23:9-30:20
 	android:exported
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:25:13-36
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:26:13-29:29
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:27:17-68
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:17-68
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:28:17-76
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:27-74
 activity#org.arthur.pigeon.ShareReceiverActivity
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:31:3-51:13
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:31:3-51:13
 	android:exported
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:33:3-26
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:33:3-26
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:32:3-40
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:32:3-40
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:34:3-38:19
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:34:3-38:19
 action#android.intent.action.SEND
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:35:7-59
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:7-59
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:35:15-56
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:15-56
 category#android.intent.category.DEFAULT
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:36:7-66
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:36:17-63
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
 data
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:37:7-45
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
 	android:mimeType
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:37:13-42
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:40:3-44:19
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:40:3-44:19
 intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:46:3-50:19
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:46:3-50:19
 action#android.intent.action.SEND_MULTIPLE
-ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:47:7-68
+ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:7-68
 	android:name
-		ADDED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml:47:15-65
+		ADDED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:15-65
 uses-sdk
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
-INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
+INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.11.0] /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] /home/arthur/.gradle/caches/transforms-3/6e3615758dcfe8581100ba5d83d313a1/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/arthur/.gradle/caches/transforms-3/2980bfed79bb8ee21785a4a4618561eb/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
@@ -278,9 +278,9 @@ MERGED from [androidx.print:print:1.0.0] /home/arthur/.gradle/caches/transforms-
 MERGED from [androidx.sqlite:sqlite:2.3.0] /home/arthur/.gradle/caches/transforms-3/b270342c381e7ecc654e407cda609209/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.3.0] /home/arthur/.gradle/caches/transforms-3/b270342c381e7ecc654e407cda609209/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/arthur/Arquivos/projetos/Pigeon Mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [androidx.work:work-runtime:2.9.0] /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
 	android:name

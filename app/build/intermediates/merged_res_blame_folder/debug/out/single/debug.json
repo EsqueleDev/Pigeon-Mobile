@@ -20,6 +20,10 @@
         "source": "org.arthur.pigeon.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "org.arthur.pigeon.app-merged_res-38:/drawable_ic_add_friend.png.flat",
+        "source": "org.arthur.pigeon.app-main-40:/drawable/ic_add_friend.png"
+    },
+    {
         "merged": "org.arthur.pigeon.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "org.arthur.pigeon.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
     },

@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+drawable ic_add_friend
 drawable ico_notification
 id webview
 layout activity_main

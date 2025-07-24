@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -93,8 +94,40 @@ class MainActivity : AppCompatActivity() {
 				}
 			}
 		}
+    }
+    fun checkForUpdate(context: Context) {
+        Thread {
+            try {
+                val url = URL("https://api.github.com/repos/EsqueleDev/Pigeon-Mobile/releases/latest")
+                val conn = url.openConnection() as HttpURLConnection
+                conn.connect()
 
-        checkForAppUpdate(this)
+                val response = conn.inputStream.bufferedReader().use { it.readText() }
+                val json = JSONObject(response)
+                val latestTag = json.getString("tag_name") // ex: "v1.0.1"
+                val apkUrl = json.getJSONArray("assets").getJSONObject(0).getString("browser_download_url")
+
+                val currentVersion = context.packageManager.getPackageInfo(context.packageName, 0).versionName
+
+
+                if (latestTag.removePrefix("v") > currentVersion) {
+                    // Nova versão disponível
+                    Handler(Looper.getMainLooper()).post {
+                        AlertDialog.Builder(context)
+                            .setTitle("Atualização disponível")
+                            .setMessage("Uma nova versão ($latestTag) está disponível. Deseja atualizar?. ")
+                            .setPositiveButton("Baixar") { _, _ ->
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(apkUrl))
+                                context.startActivity(intent)
+                            }
+                            .setNegativeButton("Agora não", null)
+                            .show()
+                    }
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }.start()
     }
 	fun convertImageToBase64(uri: Uri): String {
 		val inputStream = contentResolver.openInputStream(uri)
@@ -102,77 +135,6 @@ class MainActivity : AppCompatActivity() {
 		val base64 = Base64.encodeToString(bytes, Base64.NO_WRAP)
 		return "data:image/png;base64,$base64"
 	}
-
-    fun checkForAppUpdate(context: Context) {
-        Thread {
-            try {
-                val url = URL("https://thepigeon.com.br/APP/version.json")
-                val conn = url.openConnection() as HttpURLConnection
-                conn.connectTimeout = 5000
-                conn.readTimeout = 5000
-                val json = JSONObject(conn.inputStream.bufferedReader().readText())
-                conn.disconnect()
-
-                val serverVersionCode = json.getInt("version_code")
-                val apkUrl = json.getString("apk_url")
-
-                val currentVersionCode = context.packageManager
-                    .getPackageInfo(context.packageName, 0).longVersionCode.toInt()
-
-                if (serverVersionCode > currentVersionCode) {
-                    Handler(Looper.getMainLooper()).post {
-                        showUpdateDialog(this@MainActivity, apkUrl)
-                    }
-                }
-
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-        }.start()
-    }
-
-    fun showUpdateDialog(context: Context, apkUrl: String) {
-        AlertDialog.Builder(context)
-            .setTitle("Atualização disponível")
-            .setMessage("Há uma nova versão do Pigeon. Deseja atualizar agora?")
-            .setPositiveButton("Baixar") { _, _ ->
-                downloadAndInstallApk(context, apkUrl)
-            }
-            .setNegativeButton("Agora não", null)
-            .show()
-    }
-
-    fun downloadAndInstallApk(context: Context, apkUrl: String) {
-        val request = DownloadManager.Request(Uri.parse(apkUrl))
-        request.setTitle("Baixando atualização...")
-        request.setDescription("Aguarde o download do novo Pigeon.")
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "update.apk")
-        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
-
-        val downloadManager = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
-        val downloadId = downloadManager.enqueue(request)
-
-        val receiver = object : BroadcastReceiver() {
-            override fun onReceive(ctx: Context, intent: Intent) {
-                if (DownloadManager.ACTION_DOWNLOAD_COMPLETE == intent.action) {
-                    val query = DownloadManager.Query().setFilterById(downloadId)
-                    val cursor = downloadManager.query(query)
-                    if (cursor.moveToFirst()) {
-                        val uriString = cursor.getString(cursor.getColumnIndexOrThrow(DownloadManager.COLUMN_LOCAL_URI))
-                        val apkUri = Uri.parse(uriString)
-
-                        val installIntent = Intent(Intent.ACTION_VIEW)
-                        installIntent.setDataAndType(apkUri, "application/vnd.android.package-archive")
-                        installIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_GRANT_READ_URI_PERMISSION
-                        context.startActivity(installIntent)
-                    }
-                    cursor.close()
-                }
-            }
-        }
-
-        context.registerReceiver(receiver, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
-    }
 
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
