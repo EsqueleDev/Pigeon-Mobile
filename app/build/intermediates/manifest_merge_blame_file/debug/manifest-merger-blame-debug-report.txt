@@ -9,23 +9,23 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:5-67
-11-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:22-64
+11-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:5-67
+11-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-12-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:5-77
-12-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:22-74
+12-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:5-77
+12-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:4:22-74
 13    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-13-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:2-79
-13-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:19-77
+13-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:2-79
+13-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:5:19-77
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:2-76
-14-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:19-74
+14-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:2-76
+14-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:6:19-74
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:2-61
-15-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:19-59
+15-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:2-61
+15-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:7:19-59
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:2-77
-16-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:19-75
+16-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:2-77
+16-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:8:19-75
 17    <uses-permission android:name="android.permission.WAKE_LOCK" />
 17-->[androidx.work:work-runtime:2.9.0] /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
 17-->[androidx.work:work-runtime:2.9.0] /home/arthur/.gradle/caches/transforms-3/a3446f78ae48f0fa3b8895f6b1fd544e/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
@@ -51,98 +51,98 @@
 26-->[androidx.core:core:1.12.0] /home/arthur/.gradle/caches/transforms-3/2f00d4405d323d3c01e9a81518181af4/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
+28-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:9:5-52:19
 29        android:allowBackup="true"
-29-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:10:9-35
+29-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:10:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.12.0] /home/arthur/.gradle/caches/transforms-3/2f00d4405d323d3c01e9a81518181af4/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="true"
 33        android:icon="@mipmap/ic_launcher"
-33-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:13:9-43
+33-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:13:9-43
 34        android:label="Pigeon"
-34-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:11:9-31
+34-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:11:9-31
 35        android:requestLegacyExternalStorage="true"
-35-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:14:9-52
+35-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:14:9-52
 36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:15:9-54
+36-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:15:9-54
 37        android:supportsRtl="true"
-37-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:12:9-35
+37-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:12:9-35
 38        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-38-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:16:9-65
+38-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:16:9-65
 39        <service
-39-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:18:9-21:56
+39-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:18:9-21:56
 40            android:name="org.arthur.pigeon.MessageCheckService"
-40-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:19:13-48
+40-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:19:13-48
 41            android:exported="false"
-41-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:20:13-37
+41-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:20:13-37
 42            android:foregroundServiceType="dataSync" />
-42-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:21:13-53
+42-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:21:13-53
 43
 44        <activity
-44-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:23:9-30:20
+44-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:23:9-30:20
 45            android:name="org.arthur.pigeon.MainActivity"
-45-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:24:13-41
+45-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:24:13-41
 46            android:exported="true" >
-46-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:25:13-36
+46-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:25:13-36
 47            <intent-filter>
-47-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:26:13-29:29
+47-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:26:13-29:29
 48                <action android:name="android.intent.action.MAIN" />
-48-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:17-68
-48-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:25-66
+48-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:17-68
+48-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:27:25-66
 49
 50                <category android:name="android.intent.category.LAUNCHER" />
-50-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:17-76
-50-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:27-74
+50-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:17-76
+50-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:28:27-74
 51            </intent-filter>
 52        </activity>
 53        <activity
-53-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:31:3-51:13
+53-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:31:3-51:13
 54            android:name="org.arthur.pigeon.ShareReceiverActivity"
-54-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:32:3-40
+54-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:32:3-40
 55            android:exported="true" >
-55-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:33:3-26
+55-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:33:3-26
 56            <intent-filter>
-56-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:34:3-38:19
+56-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:34:3-38:19
 57                <action android:name="android.intent.action.SEND" />
-57-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:7-59
-57-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:15-56
+57-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:7-59
+57-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:15-56
 58
 59                <category android:name="android.intent.category.DEFAULT" />
-59-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
-59-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
+59-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
+59-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
 60
 61                <data android:mimeType="text/plain" />
-61-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
-61-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
+61-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
+61-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
 62            </intent-filter>
 63            <intent-filter>
-63-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:40:3-44:19
+63-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:40:3-44:19
 64                <action android:name="android.intent.action.SEND" />
-64-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:7-59
-64-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:15-56
+64-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:7-59
+64-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:35:15-56
 65
 66                <category android:name="android.intent.category.DEFAULT" />
-66-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
-66-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
+66-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
+66-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
 67
 68                <data android:mimeType="image/*" />
-68-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
-68-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
+68-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
+68-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
 69            </intent-filter>
 70            <intent-filter>
-70-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:46:3-50:19
+70-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:46:3-50:19
 71                <action android:name="android.intent.action.SEND_MULTIPLE" />
-71-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:7-68
-71-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:15-65
+71-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:7-68
+71-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:47:15-65
 72
 73                <category android:name="android.intent.category.DEFAULT" />
-73-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
-73-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
+73-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:7-66
+73-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:36:17-63
 74
 75                <data android:mimeType="image/*" />
-75-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
-75-->/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
+75-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:7-45
+75-->/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/src/main/AndroidManifest.xml:37:13-42
 76            </intent-filter>
 77        </activity>
 78

@@ -1,9 +1,9 @@
-#Wed Jul 23 20:19:42 BRT 2025
-base.2=/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+#Fri Jul 25 13:38:49 BRT 2025
+base.2=/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 path.2=15/classes.dex
-base.1=/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 path.1=0/classes.dex
-base.0=/media/boot/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.0=/media/arthur/Arquivos/projetos/Pigeon Mobile/Pigeon-Mobile/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -15,9 +15,9 @@ import java.util.*
 class MessageCheckService : Service() {
 
     private var timer: Timer? = null
-    private val CHANNEL_ID = "pigeon_channel"
     private val NOTIF_ID_FIXED = 1
     private val NOTIF_ID_NEW_MESSAGE = 2
+    private val CHANNEL_ID = "pigeon_service_channel"
 
     override fun onCreate() {
         super.onCreate()
@@ -25,18 +25,43 @@ class MessageCheckService : Service() {
         startForegroundService()
         startCheckingMessages()
     }
-
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val channel = NotificationChannel(
-                CHANNEL_ID,
-                "Verificação de Mensagens",
-                NotificationManager.IMPORTANCE_DEFAULT
-            ).apply {
-                description = "Canal para notificações do Pigeon"
-            }
+            val channels = listOf(
+                NotificationChannel(
+                    "pigeon_service_channel",
+                    "Serviço do Pigeon",
+                    NotificationManager.IMPORTANCE_LOW
+                ).apply {
+                    description = "Notificações do serviço rodando"
+                },
+                NotificationChannel(
+                    "pigeon_msg_channel",
+                    "Mensagens",
+                    NotificationManager.IMPORTANCE_HIGH
+                ).apply {
+                    description = "Notificações de novas mensagens"
+                },
+                NotificationChannel(
+                    "pigeon_friend_channel",
+                    "Pedidos de Amizade",
+                    NotificationManager.IMPORTANCE_DEFAULT
+                ).apply {
+                    description = "Notificações de novos pedidos de amizade"
+                },
+                NotificationChannel(
+                    "pigeon_update_channel",
+                    "Novidades na plataforma",
+                    NotificationManager.IMPORTANCE_DEFAULT
+                ).apply {
+                    description = "Seja notficado sempre que algo novo sugir ou ser melhorado"
+                }
+            )
+
             val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-            manager.createNotificationChannel(channel)
+            for (channel in channels) {
+                manager.createNotificationChannel(channel)
+            }
         }
     }
 
@@ -109,6 +134,7 @@ class MessageCheckService : Service() {
                 if (json.optBoolean("temNovoAmigo", false)) {
                     val quem = json.optString("quemMandou", "alguém")
                     val quemId = json.optString("id_do_user", "alguém")
+                    
                     sendNotification("Novo pedido!", "Você recebeu um pedido de amizade de $quem", "Friend_request", quemId)
                 }
             }
@@ -125,6 +151,12 @@ class MessageCheckService : Service() {
             if(icon == "Message"){putExtra("url", "https://thepigeon.com.br/mobilee/view_chat.php?id=" + userId)}
             else if(icon == "Friend_request"){putExtra("url", "https://thepigeon.com.br/mobilee/profile.php?id=" + userId)}
         }
+        val channelId = when (icon) {
+            "Message" -> "pigeon_msg_channel"
+            "Friend_request" -> "pigeon_friend_channel"
+            "Update" -> "pigeon_update_channel"
+            else -> "pigeon_service_channel"
+        }
 
         val pendingIntent = PendingIntent.getActivity(
             this,
@@ -137,10 +169,11 @@ class MessageCheckService : Service() {
         val iconRes = when (icon) {
             "Friend_request" -> R.drawable.ic_add_friend // OU R.drawable.ic_add_friend
             "Message" -> android.R.drawable.ic_dialog_email
+            "Update" -> android.R.drawable.ic_dialog_info
             else -> android.R.drawable.ic_dialog_info
         }
 
-        val builder = NotificationCompat.Builder(this, CHANNEL_ID)
+        val builder = NotificationCompat.Builder(this, channelId)
             .setSmallIcon(iconRes)
             .setContentTitle(title)
             .setContentText(message)
